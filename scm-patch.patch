@@ -1,0 +1,175 @@
+diff -u trunk0/src/control.f90 trunk/src/control.f90
+--- trunk0/src/control.f90	2016-09-09 07:32:37.397738227 +0200
++++ trunk/src/control.f90	2016-09-09 07:10:34.004539370 +0200
+@@ -228,7 +228,9 @@
+   CALL inhysi
+ 
+   IF (lstart .OR. lnwp) THEN
+-    CALL spectral_to_legendre
++    IF(.not. lcolumn) THEN
++      CALL spectral_to_legendre
++    ENDIF !lcolumn
+     CALL lti
+   END IF
+ 
+diff -u trunk0/src/initialize.f90 trunk/src/initialize.f90
+--- trunk0/src/initialize.f90	2016-09-09 07:32:37.365738101 +0200
++++ trunk/src/initialize.f90	2016-09-09 07:10:34.004539370 +0200
+@@ -169,13 +169,15 @@
+     CALL finish('initialize', message_text)
+   END IF
+ 
+-  IF (lyaxt_transposition .OR. nprocio > 0) THEN
+-    CALL add_yaxt_gp_nlevs((/1, nlev, nlev+1/))
+-    CALL setup_yaxt_decomposition
+-  ENDIF
+-  IF (lyaxt_transposition) THEN
+-    CALL generate_yaxt_redist(p_all_comm)
+-  ENDIF
++  IF(.not. lcolumn) THEN
++    IF (lyaxt_transposition .OR. nprocio > 0) THEN
++      CALL add_yaxt_gp_nlevs((/1, nlev, nlev+1/))
++      CALL setup_yaxt_decomposition
++    ENDIF
++    IF (lyaxt_transposition) THEN
++      CALL generate_yaxt_redist(p_all_comm)
++    ENDIF
++  ENDIF !lcolumn
+ 
+ END SUBROUTINE initialize
+ 
+diff -u trunk0/src/mo_column.f90 trunk/src/mo_column.f90
+--- trunk0/src/mo_column.f90	2016-09-09 07:32:37.377738148 +0200
++++ trunk/src/mo_column.f90	2016-09-09 07:10:34.004539370 +0200
+@@ -148,7 +148,7 @@
+     IF(nfor_omega(1)>0 .AND. nfor_div(1)>0 )            &
+                   & CALL finish('only one of nfor_omega,nfor_div','can be greater than 1')
+ 
+-    IF(nfor_omega(1)>0 .OR. nfor_div(1)>0 ) tendency_optn=1 
++    IF(nfor_omega(1)>0 .OR. nfor_div(1)>0 ) tendency_optn=1
+ 
+     IF((nfor_uv(2).GT.0) .AND.(nfor_uvgeo(1).GT.0))     &
+                   & CALL finish('only one of nfor_uv and nfor_uvgeo','can be greater than 1')
+diff -u trunk0/src/mo_hammoz_emi_volcano.f90 trunk/src/mo_hammoz_emi_volcano.f90
+--- trunk0/src/mo_hammoz_emi_volcano.f90	2016-09-09 07:32:37.385738179 +0200
++++ trunk/src/mo_hammoz_emi_volcano.f90	2016-09-09 07:10:34.004539370 +0200
+@@ -198,9 +198,9 @@
+   !-- read ascii file
+   IF (p_parallel_io) THEN
+     !-- calculate grid cell altitudes
+-    DO jk=1,klev
+-      gl_heights(:,jk,:) = gl_heights(:,jk,:) + gl_geosp(:,:)*rgrav
+-    END DO 
++   ! DO jk=1,klev
++   !   gl_heights(:,jk,:) = gl_heights(:,jk,:) + gl_geosp(:,:)*rgrav
++   ! END DO 
+  
+     CALL message('init_emi_volcano', 'Reading volcanic SO2 emissions from file '//TRIM(cfilename), &
+                  level=em_info)
+diff -u trunk0/src/mo_output.f90 trunk/src/mo_output.f90
+--- trunk0/src/mo_output.f90	2016-09-09 07:32:37.341738007 +0200
++++ trunk/src/mo_output.f90	2016-09-09 07:26:25.096275667 +0200
+@@ -1506,6 +1506,7 @@
+     INTEGER :: varID                     ! Variable ID
+     INTEGER :: n                         ! rank of field to write
+     INTEGER :: nmiss
++    LOGICAL :: lincl                     ! RD: to turn of faulty SCM streams
+ 
+     fileID  = stream%fileID
+     n     = info%ndim
+@@ -1586,6 +1587,11 @@
+         END IF
+         !<<dod
+ 
++! RD: debug turn off scm-problem streams
++        lincl = stream%name /= "jsbach" .and. & 
++                stream%name /= "land"   .and. &
++                stream%name /= "veg"
++        IF(lincl .OR. .NOT. lcolumn) THEN
+         IF (nprocio == 0) THEN
+           CALL streamWriteVar(fileID, varID, xzy(:,:,1,1), nmiss)
+         ELSE
+@@ -1594,6 +1600,7 @@
+           gp(1)%idxlist)
+ #endif
+         ENDIF
++        ENDIF !turn off jsbach
+       END IF
+ 
+ !===============================================================================
+diff -u trunk0/src/scan1.f90 trunk/src/scan1.f90
+--- trunk0/src/scan1.f90	2016-09-09 07:32:37.377738148 +0200
++++ trunk/src/scan1.f90	2016-09-09 07:10:34.004539370 +0200
+@@ -207,7 +207,9 @@
+ 
+   CALL test_scan_buffer ('after sym2')
+ 
+-  CALL legendre_to_fourier
++  IF(.not. lcolumn) THEN
++    CALL legendre_to_fourier
++  ENDIF !lcolumn
+ 
+   !-- 2.3.2 East-west derivatives
+ 
+@@ -219,7 +221,9 @@
+   CALL ffti
+   IF (ltimer) CALL timer_stop(timer_ffti)
+ 
+-  CALL fourier_to_gridpoint
++  IF(.not. lcolumn) THEN
++    CALL fourier_to_gridpoint
++  ENDIF !lcolumn
+ 
+   CALL test_scan_buffer ('after fourier_to_gridpoint')
+ 
+@@ -532,8 +536,10 @@
+ !<<<mgs
+ 
+   !-- 3.5 Direct fast *fourier transforms
+-
+-  CALL gridpoint_to_fourier 
++  
++  IF(.not. lcolumn) THEN
++    CALL gridpoint_to_fourier 
++  ENDIF !lcolumn
+ 
+   IF (ltimer) CALL timer_start(timer_fftd)
+   CALL fftd
+@@ -545,7 +551,9 @@
+ 
+   ! second part of tendency diagnostics called after SI2
+ 
+-  CALL fourier_to_legendre
++  IF(.not. lcolumn) THEN
++    CALL fourier_to_legendre
++  ENDIF !lcolumn
+ 
+   !-- 3.8 Compute contributions to symmetric and
+   !       antisymmetric *fourier components.
+@@ -557,7 +565,9 @@
+ 
+   !-- Transposition Legendre -> spectral
+ 
+-  CALL legendre_to_spectral  
++  IF(.not. lcolumn) THEN
++    CALL legendre_to_spectral  
++  ENDIF !lcolumn
+ 
+   !-- 5. Complete the scans
+ 
+diff -u trunk0/src/stepon.f90 trunk/src/stepon.f90
+--- trunk0/src/stepon.f90	2016-09-09 07:32:37.353738054 +0200
++++ trunk/src/stepon.f90	2016-09-09 07:10:34.004539370 +0200
+@@ -380,7 +380,9 @@
+      !-- 2.0 Inverse Legendre transforms
+ 
+      IF (ltimer) CALL timer_start(timer_inv_legendre)
+-     CALL spectral_to_legendre
++     IF(.not. lcolumn) THEN
++       CALL spectral_to_legendre
++     ENDIF !lcolumn
+      CALL lti
+      IF (ltimer) CALL timer_stop(timer_inv_legendre)
+ 
+
+

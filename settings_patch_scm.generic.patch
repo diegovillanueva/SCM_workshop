@@ -1,0 +1,96 @@
+--- settings_test_ori	2021-05-18 16:41:16.000000000 +0200
++++ settings_test	2021-05-18 17:36:36.000000000 +0200
+@@ -46,10 +46,10 @@
+ 
+ queue_name="compute"                    # partition name to use on current batch system (could be compute2)
+ jobname="$exp"                          # batch job name
+-ncpus=XX                                # total number of cpus
+-walltime="XX:XX:XX"                     # job estimated runtime
++ncpus=1                                # total number of cpus
++walltime="01:00:00"                     # job estimated runtime
+ nproma=16                               # vector length (don't modify if you don't know about it)
+-account="XXXX"                          # project ID for accounting 
++account="ACCOUNT_NUMBER"                          # project ID for accounting 
+ exp_dir="/work/${account}/$USER/${exp}/" # where the run will be done 
+ 
+ #-Body-begin. Do not delete this line!
+@@ -63,7 +63,7 @@
+ emissions_spec=${script_dir}/emi_spec_${exp}.txt  # name of your exp emi_spec file to copy to $exp_dir
+ 
+ hres="T63"                    # horizontal spectral truncation
+-vres="L47"                    # vertical resolution
++vres="L31"                    # vertical resolution
+ oceres="GR15"                 # resolution of the ocean model used to produce the land-sea mask
+ ntiles=11                     # number of tiles in the vegetation model
+ 
+@@ -72,8 +72,8 @@
+                               # (in case of job chaining, the proper rerun flag will be automatically 
+                               #  set when further jobs will be started)
+ 
+-date_start="2002,10,01,0,0,0" # start of the experiment - Should never be modified when making a rerun
+-date_stop="2013,01,01,0,0,0"  # end of the experiment - Can be freely adjusted during the whole experiment
++date_start="2007,01,01,0,0,0" # start of the experiment - Should never be modified when making a rerun
++date_stop="2007,01,01,6,0,0"  # end of the experiment - Can be freely adjusted during the whole experiment
+ 
+ input_files_version="v0002"   # version label for input files !!do not change if you don't know about it!!
+ scenario="RCP45"              # in case it is relevant for the given setup (using either variable GHG's
+@@ -83,9 +83,22 @@
+ 
+    #-- ECHAM6-HAMMOZ namelists:
+ 
++forcing="../forcing/stdatm_form_diss.nc"
+        #-- ECHAM:
+ 
+ cat > ${script_dir}/namelist_${exp}.echam << EOF
++&COLUMNCTL
++ nfor_t=0,1,0
++ nfor_q=1,0,0
++! nfor_nas=0,1,0
++! nfor_nai=0,1,0 
++! nfor_ms4as=0,1,0
++! nfor_mduas=0,1,0
++! nfor_mduai=0,1,0 
++ nfor_div         = 0,0
++ nfor_omega=1,1
++ forcingfile = "$forcing"
++/
+ &PARCTL
+  nproca = WILL BE AUTOMATICALLY SET HERE UNLESS YOU DEFINE A VALID VALUE HERE
+  nprocb = WILL BE AUTOMATICALLY SET HERE UNLESS YOU DEFINE A VALID VALUE HERE
+@@ -93,15 +106,15 @@
+ &RUNCTL 
+  nproma         = ${nproma}
+  lresume        = $init_restart_flag,
+- lmidatm        = .true.
+- out_datapath   = "$exp_dir"
++ lmidatm        = .false.
++ out_datapath   = "$expname"
+  out_expname    = "$exp"
+  out_filetype   = 2     ! 1--> grib; 2--> NetCDF; 6--> NetCDF4;
+  trac_filetype  = 2     ! 1--> grib; 2--> NetCDF;
+  rerun_filetype = 4     ! 2--> NetCDF; 4--> NetCDF2
+  dt_start       = $date_start
+  dt_stop        = $date_stop
+- putdata        = 1,'months','last',0
++ putdata        = 10,'minutes','last',0
+  trigfiles      = 1, 'months', 'first', 0
+  putrerun       = 1,'months','last',0
+  no_cycles      = ${no_cycles}, 
+@@ -109,6 +122,8 @@
+  lnudge         = .false.
+  ldebugs        = .false.
+  ltimer         = .false.
++ lcolumn	= .true.
++ delta_time	= 600.
+ /
+ &SUBMODELCTL
+  lmethox          = .true.
+@@ -163,7 +178,7 @@
+  dt_nudg_start   = $date_start
+  dt_nudg_stop    = $date_stop
+  lnudgdbx        = .false.
+- lnudgini        = .false.
++ lnudgini        = .true.
+  nudglmin        = 1
+  nudglmax        = ${vres#L}
+  nudgsmin        = 0
