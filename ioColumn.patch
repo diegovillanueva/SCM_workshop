@@ -1,0 +1,4 @@
+56c56
+<   CHARACTER(len= 32),PUBLIC    :: forcingfile=""
+---
+>   CHARACTER(len= 256),PUBLIC    :: forcingfile=""

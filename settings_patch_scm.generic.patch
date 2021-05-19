@@ -10,7 +10,7 @@
 +walltime="01:00:00"                     # job estimated runtime
  nproma=16                               # vector length (don't modify if you don't know about it)
 -account="XXXX"                          # project ID for accounting 
-+account="ACCOUNT_NUMBER"                          # project ID for accounting 
++account="${ACCOUNT}"                          # project ID for accounting 
  exp_dir="/work/${account}/$USER/${exp}/" # where the run will be done 
  
  #-Body-begin. Do not delete this line!
@@ -38,7 +38,7 @@
  
     #-- ECHAM6-HAMMOZ namelists:
  
-+forcing="../forcing/stdatm_form_diss.nc"
++forcing="/pf/b/${USER}/SCM_workshop/stdatm_form_diss.nc"
         #-- ECHAM:
  
  cat > ${script_dir}/namelist_${exp}.echam << EOF
