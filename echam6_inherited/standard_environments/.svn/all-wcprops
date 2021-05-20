@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_environments
+END
+DEFAULT.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_environments/DEFAULT.tmpl
+END
+mistral.config
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_environments/mistral.config
+END
+daint.config
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_environments/daint.config
+END
+thunder.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_environments/thunder.tmpl
+END
+blizzard.config
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_environments/blizzard.config
+END
+mistral.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_environments/mistral.tmpl
+END
+DEFAULT.config
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_environments/DEFAULT.config
+END
+daint.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_environments/daint.tmpl
+END
+blizzard.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_environments/blizzard.tmpl
+END
+thunder.config
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_environments/thunder.config
+END

@@ -1,0 +1,971 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src
+END
+cfortran.doc
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cfortran.doc
+END
+cdf.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdf.h
+END
+cdipioFortran.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdipioFortran.c
+END
+pio_mpi_fw_at_all.c
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_mpi_fw_at_all.c
+END
+referenceCounting.c
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/referenceCounting.c
+END
+vlist_var.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/vlist_var.c
+END
+referenceCounting.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/referenceCounting.h
+END
+dmemory.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/dmemory.c
+END
+vlist_var.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/vlist_var.h
+END
+dmemory.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/dmemory.h
+END
+cfortran.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cfortran.h
+END
+cdi.inc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdi.inc
+END
+serialize.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/serialize.c
+END
+getline.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/getline.c
+END
+serialize.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/serialize.h
+END
+pio_conf.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_conf.c
+END
+namespace.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/namespace.c
+END
+pio_list_set.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_list_set.c
+END
+stream_cgribex.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_cgribex.c
+END
+create_uuid.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/create_uuid.h
+END
+input_file.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/input_file.c
+END
+pio_conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_conf.h
+END
+namespace.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/namespace.h
+END
+cdi_cksum.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdi_cksum.c
+END
+vlist.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/vlist.c
+END
+stream_cgribex.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_cgribex.h
+END
+input_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/input_file.h
+END
+cdi_cksum.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdi_cksum.h
+END
+vlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/vlist.h
+END
+vlist_att.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/vlist_att.c
+END
+cdipio.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdipio.h
+END
+pio_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_impl.h
+END
+vlist_att.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/vlist_att.h
+END
+cksum.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cksum.c
+END
+pio_id_set.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_id_set.h
+END
+servicelib.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/servicelib.c
+END
+cksum.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cksum.h
+END
+extra.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/extra.h
+END
+taxis.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/taxis.c
+END
+iterator_grib.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/iterator_grib.c
+END
+taxis.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/taxis.h
+END
+iterator_grib.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/iterator_grib.h
+END
+mo_cdi.f90
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/mo_cdi.f90
+END
+cdf_int.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdf_int.c
+END
+stream_cdf.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_cdf.c
+END
+docu
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/docu
+END
+cdf_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdf_int.h
+END
+stream_cdf.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_cdf.h
+END
+pio_posixfpguardsendrecv.c
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_posixfpguardsendrecv.c
+END
+stream_history.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_history.c
+END
+pio_posixnonb.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_posixnonb.c
+END
+cgribex.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cgribex.h
+END
+basetime.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/basetime.c
+END
+timebase.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/timebase.c
+END
+basetime.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/basetime.h
+END
+timebase.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/timebase.h
+END
+model.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/model.c
+END
+resource_handle.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/resource_handle.c
+END
+model.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/model.h
+END
+resource_handle.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/resource_handle.h
+END
+stream_ext.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_ext.c
+END
+pio_mpi_fw_at_reblock.c
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_mpi_fw_at_reblock.c
+END
+stream_ext.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_ext.h
+END
+tsteps.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/tsteps.c
+END
+pio_dbuffer.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_dbuffer.c
+END
+resource_unpack.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/resource_unpack.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/Makefile.am
+END
+stream_gribapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_gribapi.c
+END
+institution.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/institution.c
+END
+iterator.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/iterator.c
+END
+pio_rpc.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_rpc.c
+END
+subtype.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/subtype.c
+END
+resource_unpack.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/resource_unpack.h
+END
+make_fint.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/make_fint.c
+END
+stream_gribapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_gribapi.h
+END
+pio_serialize.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_serialize.c
+END
+cdipio.inc
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdipio.inc
+END
+institution.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/institution.h
+END
+iterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/iterator.h
+END
+pio_rpc.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_rpc.h
+END
+subtype.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/subtype.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/Makefile.in
+END
+datetime.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/datetime.h
+END
+pio_comm.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_comm.c
+END
+pio_serialize.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_serialize.h
+END
+pio_comm.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_comm.h
+END
+cdi_error.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdi_error.c
+END
+cdi_int.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdi_int.c
+END
+exse.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/exse.h
+END
+util.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/util.c
+END
+cdi_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdi_int.h
+END
+pio_posixasynch.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_posixasynch.c
+END
+pio_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_util.c
+END
+binary.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/binary.c
+END
+stream_grb.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_grb.c
+END
+pio_client.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_client.c
+END
+gaussgrid.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/gaussgrid.c
+END
+pio_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_util.h
+END
+binary.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/binary.h
+END
+error.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/error.c
+END
+stream_grb.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_grb.h
+END
+pio_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_client.h
+END
+cdiFortran.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdiFortran.c
+END
+ieglib.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/ieglib.c
+END
+cdi_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdi_util.c
+END
+gaussgrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/gaussgrid.h
+END
+error.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/error.h
+END
+gribapi_utilities.c
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/gribapi_utilities.c
+END
+stream_fcommon.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_fcommon.c
+END
+pio_mpinonb.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_mpinonb.c
+END
+ieg.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/ieg.h
+END
+pio_server.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_server.c
+END
+dtypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/dtypes.h
+END
+gribapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/gribapi.c
+END
+gribapi_utilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/gribapi_utilities.h
+END
+stream_fcommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_fcommon.h
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/config.h.in
+END
+pio_server.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_server.h
+END
+gribapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/gribapi.h
+END
+grid.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/grid.c
+END
+stream_srv.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_srv.c
+END
+version.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/version.c
+END
+pio.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio.c
+END
+table.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/table.c
+END
+grid.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/grid.h
+END
+stream_srv.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_srv.h
+END
+pio.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio.h
+END
+table.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/table.h
+END
+zaxis.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/zaxis.c
+END
+make_cdilib
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/make_cdilib
+END
+stream_var.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_var.c
+END
+zaxis.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/zaxis.h
+END
+cdi.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdi.h
+END
+service.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/service.h
+END
+calendar.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/calendar.c
+END
+extralib.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/extralib.c
+END
+swap.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/swap.c
+END
+calendar.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/calendar.h
+END
+swap.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/swap.h
+END
+cdi_limits.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdi_limits.h
+END
+cdilib.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdilib.c
+END
+stream_record.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_record.c
+END
+stream.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream.c
+END
+pio_roles.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_roles.c
+END
+varscan.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/varscan.c
+END
+pio_record_send.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_record_send.c
+END
+tablepar.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/tablepar.h
+END
+varscan.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/varscan.h
+END
+pio_interface.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_interface.c
+END
+iterator_fallback.c
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/iterator_fallback.c
+END
+cgribexlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cgribexlib.c
+END
+pio_interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_interface.h
+END
+pio_cdf_int.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_cdf_int.c
+END
+iterator_fallback.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/iterator_fallback.h
+END
+file.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/file.c
+END
+stream_ieg.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_ieg.c
+END
+pio_cdf_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_cdf_int.h
+END
+file.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/file.h
+END
+stream_ieg.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/stream_ieg.h
+END
+pio_mpi_fw_ordered.c
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/pio_mpi_fw_ordered.c
+END
+cdf.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/src/cdf.c
+END

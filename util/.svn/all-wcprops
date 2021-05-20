@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util
+END
+logServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/logServer.py
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/Makefile.in
+END
+inc2tex.py
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/inc2tex.py
+END
+fgenrc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/fgenrc
+END
+prepare.py
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/prepare.py
+END
+f2html.pl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/f2html.pl
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/Makefile.am
+END
+math_constants.py
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/math_constants.py
+END
+ftrace.pl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/ftrace.pl
+END

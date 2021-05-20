@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 38
+config.h
+stamp-h1
+stamp-h2
+config.inc
+
+END

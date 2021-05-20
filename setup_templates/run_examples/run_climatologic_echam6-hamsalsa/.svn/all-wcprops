@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_climatologic_echam6-hamsalsa
+END
+settings_run_climatologic_echam6-hamsalsa
+K 25
+svn:wc:ra_dav:version-url
+V 193
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_climatologic_echam6-hamsalsa/settings_run_climatologic_echam6-hamsalsa
+END
+symlinks_run_climatologic_echam6-hamsalsa.sh
+K 25
+svn:wc:ra_dav:version-url
+V 196
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_climatologic_echam6-hamsalsa/symlinks_run_climatologic_echam6-hamsalsa.sh
+END
+emi_spec_run_climatologic_echam6-hamsalsa.txt
+K 25
+svn:wc:ra_dav:version-url
+V 197
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_climatologic_echam6-hamsalsa/emi_spec_run_climatologic_echam6-hamsalsa.txt
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_climatologic_echam6-hamsalsa/README.txt
+END

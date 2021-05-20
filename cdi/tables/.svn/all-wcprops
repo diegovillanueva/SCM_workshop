@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/tables
+END
+echam4
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/tables/echam4
+END
+echam6cmip5
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/tables/echam6cmip5
+END
+ecmwf
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/tables/ecmwf
+END
+cosmo002
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/tables/cosmo002
+END
+mpiom1
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/tables/mpiom1
+END
+remo
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/tables/remo
+END
+wmo_001
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/tables/wmo_001
+END
+cosmo201
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/tables/cosmo201
+END
+cosmo202
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/tables/cosmo202
+END
+cosmo203
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/tables/cosmo203
+END
+cosmo205
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/tables/cosmo205
+END
+cosmo250
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/tables/cosmo250
+END
+default_tables
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/tables/default_tables
+END
+gen_tableheaderfile.in
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/tables/gen_tableheaderfile.in
+END

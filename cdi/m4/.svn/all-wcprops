@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4
+END
+acx_option_search_libs.m4
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_option_search_libs.m4
+END
+libtool.m4
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/libtool.m4
+END
+acx_lang_other_suffix_conftest.m4
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_lang_other_suffix_conftest.m4
+END
+acx_fortran_check_include.m4
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_fortran_check_include.m4
+END
+acx_check_cfortran.m4
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_check_cfortran.m4
+END
+ac_lang_program_fortran.m4
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/ac_lang_program_fortran.m4
+END
+acx_lang_fortran_check_include.m4
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_lang_fortran_check_include.m4
+END
+acx_assert_lang_is_fortran_variant.m4
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_assert_lang_is_fortran_variant.m4
+END
+asx_unset.m4
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/asx_unset.m4
+END
+lt~obsolete.m4
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/lt~obsolete.m4
+END
+acx_lang_check_include.m4
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_lang_check_include.m4
+END
+acx_lt_problems.m4
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_lt_problems.m4
+END
+acx_lang_c_check_include.m4
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_lang_c_check_include.m4
+END
+ax_pthread.m4
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/ax_pthread.m4
+END
+acx_fortran_package.m4
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_fortran_package.m4
+END
+ltsugar.m4
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/ltsugar.m4
+END
+pkg.m4
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/pkg.m4
+END
+acx_cfortran_flags.m4
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_cfortran_flags.m4
+END
+acx_sl_fc_mod_path_flag.m4
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_sl_fc_mod_path_flag.m4
+END
+ltversion.m4
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/ltversion.m4
+END
+acx_check_strptr_convert.m4
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_check_strptr_convert.m4
+END
+acx_options.m4
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_options.m4
+END
+kpse_libtool.m4
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/kpse_libtool.m4
+END
+acx_lang_package.m4
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_lang_package.m4
+END
+acx_c_package.m4
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_c_package.m4
+END
+asx_tr_arg.m4
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/asx_tr_arg.m4
+END
+acx_execinfo.m4
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_execinfo.m4
+END
+ltoptions.m4
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/ltoptions.m4
+END
+acx_sl_mod_suffix.m4
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/acx_sl_mod_suffix.m4
+END
+starlink_fpp.m4
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/m4/starlink_fpp.m4
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_defaults_echam6-ham
+END
+settings_run_defaults_echam6-ham
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_defaults_echam6-ham/settings_run_defaults_echam6-ham
+END
+emi_spec_run_defaults_echam6-ham.txt
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_defaults_echam6-ham/emi_spec_run_defaults_echam6-ham.txt
+END
+symlinks_run_defaults_echam6-ham.sh
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_defaults_echam6-ham/symlinks_run_defaults_echam6-ham.sh
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_defaults_echam6-ham/README.txt
+END

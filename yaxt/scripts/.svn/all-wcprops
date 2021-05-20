@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/scripts
+END
+makef90depends
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/scripts/makef90depends
+END
+header2installheader.pl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/scripts/header2installheader.pl
+END
+find-problem-sources.sh
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/scripts/find-problem-sources.sh
+END
+generate_doc.pl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/scripts/generate_doc.pl
+END
+cpp.pm
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/scripts/cpp.pm
+END

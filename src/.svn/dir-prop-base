@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 39
+*_prev
+*_ori
+version.c
+Makefile.am.old
+
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/include
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/include/config.h.in
+END
+.vcs_dummy
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/include/.vcs_dummy
+END
+cfortran.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/include/cfortran.h
+END

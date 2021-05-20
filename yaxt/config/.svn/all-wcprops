@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/config
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/config/depcomp
+END
+compile
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/config/compile
+END
+test-driver
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/config/test-driver
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/config/missing
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/config/config.guess
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/config/config.sub
+END
+ltmain.sh
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/config/ltmain.sh
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/config/install-sh
+END

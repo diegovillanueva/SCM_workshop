@@ -1,0 +1,104 @@
+10
+
+dir
+6707
+https://svn.iac.ethz.ch/external/echam-hammoz/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples
+https://svn.iac.ethz.ch/external/echam-hammoz
+
+
+
+2017-02-15T18:04:22.667816Z
+3946
+ferrachs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5abd231c-38af-11dd-ab7a-a2415d6bb57b
+
+run_transient_echam6-moz
+dir
+
+run_defaults_echam6-moz
+dir
+
+run_defaults_echam6-ham
+dir
+
+run_climatologic_echam6-hamm7
+dir
+
+run_transient_echam6-hamm7
+dir
+
+run_echam6-hamm7_gfas+accmip_interpolated_validation_cand
+dir
+
+run_echam6-moz-piControl
+dir
+
+run_climatologic_echam6-hamsalsa
+dir
+
+run_echam6-hamm7_gfas+ceds_validation_cand
+dir
+
+run_transient_echam6-hammoz
+dir
+
+run_defaults_echam6-hammoz
+dir
+
+README.txt
+file
+
+
+
+
+2021-05-20T14:14:22.000000Z
+4f0c4282c09558766176e11b21a1259c
+2013-02-21T13:20:51.283736Z
+1026
+ferrachs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+675
+
+run_climatologic_echam6
+dir
+
+run_defaults_echam6
+dir
+
+run_echam6-moz-amip
+dir
+

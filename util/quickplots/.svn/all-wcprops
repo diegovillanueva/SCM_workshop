@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/Makefile.in
+END
+table.f90
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/table.f90
+END
+BOTquick_diff.ncl
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/BOTquick_diff.ncl
+END
+PREPAREdiff_atm_ncl
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/PREPAREdiff_atm_ncl
+END
+PREPAREdiff_atmlog_ncl
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/PREPAREdiff_atmlog_ncl
+END
+ATMlog_diff.ncl
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/ATMlog_diff.ncl
+END
+ATMquick_diff_lola.ncl
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/ATMquick_diff_lola.ncl
+END
+make_six_diff_log
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/make_six_diff_log
+END
+mo_tables_diff.f90
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/mo_tables_diff.f90
+END
+make_six_diff_bot
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/make_six_diff_bot
+END
+make_six_atm
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/make_six_atm
+END
+mo_tables.f90
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/mo_tables.f90
+END
+ATMquick_diff_zon.ncl
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/ATMquick_diff_zon.ncl
+END
+sixplot_latex.sh
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/sixplot_latex.sh
+END
+PREPAREbot_erain_ncl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/PREPAREbot_erain_ncl
+END
+ATMerain_quick_lola.ncl
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/ATMerain_quick_lola.ncl
+END
+dummy.eps
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/dummy.eps
+END
+TABLE_job
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/TABLE_job
+END
+echam6.varCode
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/echam6.varCode
+END
+PREPAREdiff_bot_ncl
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/PREPAREdiff_bot_ncl
+END
+make_six_diff_atm
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/make_six_diff_atm
+END
+mo_util_string.f90
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/mo_util_string.f90
+END
+ATMerain_quick_zon.ncl
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/ATMerain_quick_zon.ncl
+END
+ATMerain_quicklog_zon.ncl
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/ATMerain_quicklog_zon.ncl
+END
+make_six_log
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/make_six_log
+END
+BOTerain_quicky.ncl
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/BOTerain_quicky.ncl
+END
+make_six_bot
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/make_six_bot
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/Makefile.am
+END
+PREPAREatm_erain_ncl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/PREPAREatm_erain_ncl
+END
+TABLEdiff_job
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/TABLEdiff_job
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/README.txt
+END
+PREPAREatmlog_erain_ncl
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/PREPAREatmlog_erain_ncl
+END
+table_diff.f90
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/util/quickplots/table_diff.f90
+END

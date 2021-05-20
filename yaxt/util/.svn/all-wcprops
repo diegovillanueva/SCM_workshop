@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/util
+END
+crayftnpreproc-wrapper
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/util/crayftnpreproc-wrapper
+END
+mpi_launch_poe
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/util/mpi_launch_poe
+END
+sunf95preproc-wrapper
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/util/sunf95preproc-wrapper
+END
+xlfpreproc-wrapper
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/util/xlfpreproc-wrapper
+END
+sxpreproc-wrapper
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/util/sxpreproc-wrapper
+END
+pbs_aprun
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/util/pbs_aprun
+END
+serialrun.in
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/util/serialrun.in
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_echam6-moz-piControl
+END
+settings_run_echam6-moz-piControl
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_echam6-moz-piControl/settings_run_echam6-moz-piControl
+END
+emi_spec_run_echam6-moz-piControl.txt
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_echam6-moz-piControl/emi_spec_run_echam6-moz-piControl.txt
+END
+symlinks_run_echam6-moz-piControl.sh
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_echam6-moz-piControl/symlinks_run_echam6-moz-piControl.sh
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_echam6-moz-piControl/README.txt
+END

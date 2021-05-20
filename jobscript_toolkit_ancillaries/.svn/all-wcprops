@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/jobscript_toolkit_ancillaries
+END
+user_vars_to_check.sh
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/jobscript_toolkit_ancillaries/user_vars_to_check.sh
+END
+get_input_file_choices.sh
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/jobscript_toolkit_ancillaries/get_input_file_choices.sh
+END
+files_to_copy_to_exp_dir.sh
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/jobscript_toolkit_ancillaries/files_to_copy_to_exp_dir.sh
+END
+valid_properties.sh
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/jobscript_toolkit_ancillaries/valid_properties.sh
+END
+set_emi_basepath.sh
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/jobscript_toolkit_ancillaries/set_emi_basepath.sh
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/jobscript_toolkit_ancillaries/README.txt
+END
+backward_compatibility_info.sh
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/jobscript_toolkit_ancillaries/backward_compatibility_info.sh
+END

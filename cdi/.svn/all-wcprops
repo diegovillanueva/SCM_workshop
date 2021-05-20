@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/Makefile.in
+END
+cdi.settings.in
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/cdi.settings.in
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/configure.ac
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/.gitignore
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/AUTHORS
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/INSTALL
+END
+acinclude.m4
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/acinclude.m4
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/ChangeLog
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/COPYING
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/Makefile.am
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/NEWS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/README
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/cdi/aclocal.m4
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_echam6-hamm7_gfas+ceds_validation_cand
+END
+settings_run_echam6-hamm7_gfas+ceds_validation_cand
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_echam6-hamm7_gfas+ceds_validation_cand/settings_run_echam6-hamm7_gfas+ceds_validation_cand
+END
+emi_spec_run_echam6-hamm7_gfas+ceds_validation_cand.txt
+K 25
+svn:wc:ra_dav:version-url
+V 217
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_echam6-hamm7_gfas+ceds_validation_cand/emi_spec_run_echam6-hamm7_gfas+ceds_validation_cand.txt
+END
+symlinks_run_echam6-hamm7_gfas+ceds_validation_cand.sh
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_echam6-hamm7_gfas+ceds_validation_cand/symlinks_run_echam6-hamm7_gfas+ceds_validation_cand.sh
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/run_examples/run_echam6-hamm7_gfas+ceds_validation_cand/README.txt
+END

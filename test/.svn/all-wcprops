@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test
+END
+test_diff.sh
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_diff.sh
+END
+test_all.sh
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_all.sh
+END
+test_parallelnproma.sh
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_parallelnproma.sh
+END
+test_checkdirectories.sh
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_checkdirectories.sh
+END
+test_parallelnpromarerunsubmodeloff.sh
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_parallelnpromarerunsubmodeloff.sh
+END
+compile_echam6.sh
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/compile_echam6.sh
+END
+test_single.sh
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_single.sh
+END
+test_echam6_test_namelists.sh
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_echam6_test_namelists.sh
+END
+test_echam6_reference_links.sh
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_echam6_reference_links.sh
+END
+test_update.sh
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_update.sh
+END
+test_parallelnpromarerun.sh
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_parallelnpromarerun.sh
+END
+test_echam6_run.sh
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_echam6_run.sh
+END
+test_rerun.sh
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_rerun.sh
+END
+test_parallel.sh
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_parallel.sh
+END
+test_nproma.sh
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_nproma.sh
+END
+readme.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/readme.pdf
+END
+link.sh
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/link.sh
+END
+test_echam6_reference_namelists.sh
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_echam6_reference_namelists.sh
+END
+test_echam6_test_links.sh
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_echam6_test_links.sh
+END
+test_echam6.sh
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_echam6.sh
+END
+test_submodeloff.sh
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/test/test_submodeloff.sh
+END

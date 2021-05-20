@@ -1,0 +1,599 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests
+END
+test_yaxt.f90
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_yaxt.f90
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/Makefile.in
+END
+test_idxempty.c
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxempty.c
+END
+test_perf_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_perf_run.in
+END
+test_xmap_all2all_parallel_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_all2all_parallel_f.f90
+END
+test_idxstripes_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxstripes_run.in
+END
+test_xmap_dist_dir_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_dist_dir_f.f90
+END
+test_xmap_all2all.c
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_all2all.c
+END
+test_initialized_finalized_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_initialized_finalized_f.f90
+END
+test_xmap_all2all_fail_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_all2all_fail_run.in
+END
+test_redist_collection_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_collection_run.in
+END
+test_redist_collection_parallel.c
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_collection_parallel.c
+END
+test_perf_stripes.f90
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_perf_stripes.f90
+END
+test_uid.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_uid.c
+END
+test_idxvec.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxvec.c
+END
+test_xmap_dist_dir_parallel_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_dist_dir_parallel_f.f90
+END
+test_redist_collection_static_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_collection_static_run.in
+END
+test_idxmod.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxmod.c
+END
+test_xmap_all2all_fail_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_all2all_fail_f.f90
+END
+test_redist_collection_static_parallel.c
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_collection_static_parallel.c
+END
+test_exchanger_parallel_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_exchanger_parallel_run.in
+END
+test_idxsection_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxsection_f.f90
+END
+test_idxvec_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxvec_run.in
+END
+test_xmap_all2all_parallel_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_all2all_parallel_run.in
+END
+test_yaxt_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_yaxt_run.in
+END
+test_redist_p2p_parallel_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_p2p_parallel_run.in
+END
+test_ut_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_ut_run.in
+END
+test_redist_collection.c
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_collection.c
+END
+test_redist_p2p_parallel_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_p2p_parallel_f.f90
+END
+test_idxempty_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxempty_run.in
+END
+test_perf_stripes_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_perf_stripes_run.in
+END
+test_idxstripes_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxstripes_f.f90
+END
+test_redist_common_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_common_f.f90
+END
+test_idxempty_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxempty_f.f90
+END
+test_exported_symbols.in
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_exported_symbols.in
+END
+test_sort.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_sort.c
+END
+test_xmap_all2all_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_all2all_f.f90
+END
+test_xmap_common_parallel.c
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_common_parallel.c
+END
+test_redist_repeat.c
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_repeat.c
+END
+test_mpi_generate_datatype.c
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_mpi_generate_datatype.c
+END
+test_idxlist_collection.c
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxlist_collection.c
+END
+test_idxlist_utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxlist_utils.c
+END
+test_redist_repeat_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_repeat_run.in
+END
+test_redist_collection_parallel_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_collection_parallel_f.f90
+END
+test_mpi_generate_datatype_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_mpi_generate_datatype_run.in
+END
+test_idxvec_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxvec_f.f90
+END
+test_idxmod_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxmod_f.f90
+END
+test_idxlist_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxlist_utils.h
+END
+test_redist_repeat_parallel.c
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_repeat_parallel.c
+END
+test_xmap_intersection_parallel.c
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_intersection_parallel.c
+END
+test_perf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_perf.f90
+END
+core
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/core
+END
+test_redist_collection_static_parallel_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_collection_static_parallel_f.f90
+END
+test_redist_p2p.c
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_p2p.c
+END
+test_redist_collection_static.c
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_collection_static.c
+END
+test_xmap_common.c
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_common.c
+END
+test_redist_repeat_parallel_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_repeat_parallel_run.in
+END
+test_handles.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_handles.c
+END
+test_exchanger_parallel.c
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_exchanger_parallel.c
+END
+test_xmap_all2all_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_all2all_run.in
+END
+test_idxsection_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxsection_run.in
+END
+test_xmap_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_common.h
+END
+test_xmap_all2all_parallel.c
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_all2all_parallel.c
+END
+test_mpi_smartdedup_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_mpi_smartdedup_run.in
+END
+test_redist_collection_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_collection_f.f90
+END
+test_handles_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_handles_run.in
+END
+test_xmap_dist_dir.c
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_dist_dir.c
+END
+test_initialized_finalized.c
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_initialized_finalized.c
+END
+test_idxmod_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxmod_run.in
+END
+test_xmap_dist_dir_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_dist_dir_run.in
+END
+test_sort_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_sort_run.in
+END
+test_redist_collection_static_parallel_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_collection_static_parallel_run.in
+END
+test_initialized_finalized_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_initialized_finalized_run.in
+END
+test_xmap_dist_dir_parallel.c
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_dist_dir_parallel.c
+END
+test_idxlist_collection_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxlist_collection_run.in
+END
+test_xmap_all2all_fail.c
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_all2all_fail.c
+END
+tests.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/tests.c
+END
+test_ut.f90
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_ut.f90
+END
+tests.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/tests.h
+END
+test_idxsection.c
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxsection.c
+END
+test_xmap_common_parallel_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_common_parallel_f.f90
+END
+test_xmap_dist_dir_parallel_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_dist_dir_parallel_run.in
+END
+ftest_common.f90
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/ftest_common.f90
+END
+test_redist_repeat_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_repeat_f.f90
+END
+test_idxlist_collection_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxlist_collection_f.f90
+END
+test_mpi_smartdedup.c
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_mpi_smartdedup.c
+END
+test_xmap_intersection_parallel_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_intersection_parallel_run.in
+END
+test_idxlist_utils_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxlist_utils_f.f90
+END
+test_redist_p2p_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_p2p_run.in
+END
+test_redist_repeat_parallel_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_repeat_parallel_f.f90
+END
+test_redist_p2p_parallel.c
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_p2p_parallel.c
+END
+test_xmap_intersection_parallel_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_intersection_parallel_f.f90
+END
+test_redist_collection_parallel_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_collection_parallel_run.in
+END
+test_uid_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_uid_run.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/Makefile.am
+END
+test_redist_p2p_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_p2p_f.f90
+END
+test_redist_collection_static_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_redist_collection_static_f.f90
+END
+test_idxstripes.c
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_idxstripes.c
+END
+test_xmap_common_f.f90
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/tests/test_xmap_common_f.f90
+END

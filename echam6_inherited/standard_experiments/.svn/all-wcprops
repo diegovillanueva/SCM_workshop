@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments
+END
+DEFAULT.run_start.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments/DEFAULT.run_start.tmpl
+END
+amip-XR.config
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments/amip-XR.config
+END
+DEFAULT.config
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments/DEFAULT.config
+END
+DEFAULT.job1.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments/DEFAULT.job1.tmpl
+END
+DEFAULT.job2.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments/DEFAULT.job2.tmpl
+END
+DEFAULT.job3.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments/DEFAULT.job3.tmpl
+END
+sstClim.run.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments/sstClim.run.tmpl
+END
+amip-CR.config
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments/amip-CR.config
+END
+sstClim-LR.config
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments/sstClim-LR.config
+END
+sstClim-MR.config
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments/sstClim-MR.config
+END
+amip-HR.config
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments/amip-HR.config
+END
+DEFAULT.run.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments/DEFAULT.run.tmpl
+END
+amip.run.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments/amip.run.tmpl
+END
+DEFAULT.plot_diff.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments/DEFAULT.plot_diff.tmpl
+END
+amip-LR.config
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments/amip-LR.config
+END
+amip-MR.config
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments/amip-MR.config
+END
+DEFAULT.plot.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/echam6_inherited/standard_experiments/DEFAULT.plot.tmpl
+END

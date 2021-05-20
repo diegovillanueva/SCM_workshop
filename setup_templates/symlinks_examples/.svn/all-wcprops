@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/symlinks_examples
+END
+symlinks_echam6-hammoz_backward_support_for_volcanic_data.sh
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/symlinks_examples/symlinks_echam6-hammoz_backward_support_for_volcanic_data.sh
+END
+symlinks_echam6-hammoz.sh
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/setup_templates/symlinks_examples/symlinks_echam6-hammoz.sh
+END

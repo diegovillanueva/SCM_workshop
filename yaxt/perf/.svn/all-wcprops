@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/perf
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/perf/Makefile.in
+END
+perf_idxsection_get_positions_of_indices_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/perf/perf_idxsection_get_positions_of_indices_run.in
+END
+core
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/perf/core
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/perf/Makefile.am
+END
+perf_sparse_array_gather_run.in
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/perf/perf_sparse_array_gather_run.in
+END
+perf_idxsection_get_positions_of_indices.c
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/perf/perf_idxsection_get_positions_of_indices.c
+END
+perf_sparse_array_gather.f90
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/external/echam-hammoz/!svn/ver/3952/echam6-hammoz/branches/stable/echam6.3-ham2.3-moz1.0/yaxt/perf/perf_sparse_array_gather.f90
+END
