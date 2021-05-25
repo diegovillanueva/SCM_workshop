@@ -35,11 +35,7 @@
         cd ~
     ```
     
-### Download ECHAM
-* Copy ECHAM-HAM to your home directory: about 5 min
-    ```
-        rsync -a --progress /work/bb1224/b380602/echam6.3-ham2.3-moz1.0/ ~/MyClimateModel
-    ```
+### Prepare your environment
     
 * Prepare your profile: `vim ~/.bash_profile` and include the following text:
     ``` 
@@ -58,6 +54,13 @@
                 module load intel/16.0
                 module load mxm/3.4.3082
                 module load bullxmpi_mlx/bullxmpi_mlx-1.2.9.2
+    ```
+
+### Download ECHAM
+
+* Copy ECHAM-HAM to your home directory: about 5 min
+    ```
+        rsync -a --progress /work/bb1224/b380602/echam6.3-ham2.3-moz1.0/ ~/MyClimateModel
     ```
     
 ### Download the Patch for Pratical Work with the Single Column Model
@@ -125,7 +128,7 @@
 * mount mistral disk (platform dependent) 
 	* on Mac
         ```	
-        sshfs MyUser@mistral.dkrz.de:/work/MyACCOUNT/MyUser ./MISTRAL -ovolname=NAME -o password_stdin <<< "MyPASSWORD"
+        sshfs MyUser@mistral.dkrz.de:/work/bb1224/MyUser ./MISTRAL -ovolname=NAME -o password_stdin <<< "MyPASSWORD"
         ```
 
 * Plot your results (platform dependent)
