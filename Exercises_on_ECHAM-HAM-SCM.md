@@ -238,9 +238,9 @@
 	    jobsubm_echam.sh settings_MyRunWithChanges
 	    ```
 
+# On your Local Computer
 ## Perform Data Analysis and Plotting
 
-# On your Local Computer
 
 * Plot your results (platform dependent)
 
@@ -288,7 +288,6 @@
 	* Prepare run
 
 		```
-		cd my_experiments
 		prepare_run.sh MyRunWithChangesInCode
 		```
 	* Configure run for SCM
@@ -304,8 +303,8 @@
     jobsubm_echam.sh settings_MyRunWithChangesInCode
     ```
 
-### Perform Data Analysis and Plotting
 # On your Local Computer
+### Perform Data Analysis and Plotting
 
 * Plot your results (platform dependent)
 
