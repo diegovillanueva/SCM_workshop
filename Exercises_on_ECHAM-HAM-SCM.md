@@ -6,7 +6,6 @@
   * <https://www.openvim.com> 
 	* <https://vim-adventures.com>
 	* <http://www.vimgenius.com/lessons/vim-intro/levels/level-1>
-	* In short: 'inside vim, press 'i' for insertmode, then paste, press 'esc' for normal mode, type ':wq' and press 'enter' to save and quit)'
 
 
 * Test (or prepare) your machine for remote connections with ssh and sshfs
@@ -45,20 +44,15 @@
     
 ### Prepare your environment
     
-* Make a variable including your project number
+* Make a variable including your project number (bb1224 for T2 course in SS2021)
 
     ``` 
       export ACCOUNT=bb1224
     ``` 
-* Add the following lines in your ~/.bash_profile:
 
-    ``` 
-      vi ~/.bash_profile
-    ```
- 	* On vim add
- 	
+* Load the required modules for ECHAM-HAM
+
       ``` 
-        export ACCOUNT=bb1224
         module use /pf/zmaw/m222045/m222045_modulefiles
         module load jobscript_toolkit
         module load autotools_for_echam/6.3.0
@@ -67,12 +61,40 @@
         module load bullxmpi_mlx/bullxmpi_mlx-1.2.9.2
       ```
 
+* And set the correct language
+      ```
+        export LC_ALL=C
+      ```
+
+* Add the lines in your ~/.bash_profile for your next session:
+
+    ``` 
+      vi ~/.bash_profile
+    ```
+  * On vim add
+ 	
+  
+      ``` 
+        export ACCOUNT=bb1224
+        module use /pf/zmaw/m222045/m222045_modulefiles
+        module load jobscript_toolkit
+        module load autotools_for_echam/6.3.0
+        module load intel/16.0
+        module load mxm/3.4.3082
+        module load bullxmpi_mlx/bullxmpi_mlx-1.2.9.2
+        export LC_ALL=C
+      ```
+    * In short: inside vim: 
+      * press 'i' for insertmode, then paste the lines 
+      * press 'esc' for normal mode, 
+      * type ':wq' and press 'enter' to save and quit
+
 ### Download ECHAM
 
 * Copy ECHAM-HAM to your home directory: about 5 min
 
     ```
-        rsync -a --progress /work/bb1224/b380602/echam6.3-ham2.3-moz1.0/ ~/MyClimateModel
+        cp -av /work/bb1224/b380602/MyClimateModel ~/MyClimateModel
     ```
     
 ### Download the Patch for Pratical Work with the Single Column Model
@@ -135,10 +157,17 @@
         patch settings_MyRun ../../../SCM_workshop/settings_patch_scm.generic.patch
 	    ```
      
-    * Run
+    * Create a directory for the output and run
     
       ```
+      mkdir /work/$ACCOUNT/$USER
       jobsubm_echam.sh settings_MyRun
+      ```
+
+* Check if is runing
+
+      ```
+      squeue -u $USER
       ```
 
 * Check the content of your results 
@@ -148,37 +177,43 @@
     cdo infon -vertmean -timmean -selname,xl,relhum MyRun_200701.01_echam.nc
     ```
 
+# On your Local Computer (open a new terminal)
 ### Perform Data Analysis and Plotting
-#### On your Local Computer
 
-* Mount mistral disk (platform dependent) 
-	* On Mac
+* Open Terminal
+  * Mount mistral disk (platform dependent) 
+    * On Mac
 
       ```
-          sshfs MyUser@mistral.dkrz.de:/work/bb1224/MyUser ./MISTRAL -ovolname=NAME -o password_stdin <<< "MyPASSWORD"
+          MyUser=MyUser #replace right side with your user
+          MyPass=MyPass #replace right side with your pass
+          sshfs $MyUser@mistral.dkrz.de:/work/bb1224/$MyUser ./MISTRAL -ovolname=NAME -o password_stdin <<< "$MyPass"
       ```
 
 * Plot your results (platform dependent)
-	* Open a new terminal, and go to were you mounted the MISTRAL disk
-	* On Mac (panoply)
-			open MISTRAL/MyRun/MyRun_200701.01_echam.nc
+
+  * On Mac (panoply)
+  
+      ```
+        open MISTRAL/MyRun/MyRun_200701.01_echam.nc
+      ```
 
 
+# On MISTRAL
 ## EXERCISE 2: Rerunning ECHAM on MISTRAL with Parameter Changes
 
 * Change a parameter in your simulation and rerun
 
-	* Go to experiments
+	* Go to your experiment folder
 
       ```
-    	cd /pf/b/$USER/MyClimateModel/my_experiments
+    	cd ~/MyClimateModel/my_experiments
       ```
 
 	* Prepare run
 
       ```
-    	cd my_experiments
-		prepare_run.sh MyRunWithChanges
+      prepare_run.sh MyRunWithChanges
       ```
 
 	* Configure run for SCM
@@ -188,12 +223,14 @@
       patch settings_MyRunWithChanges ../../../SCM_workshop/settings_patch_scm.generic.patch
    		```
 
-	* Change a parameter, e.g.  (see ../../include/physctl.inc)
+	* Change a parameter (see ../../include/physctl.inc)
 
       ```
     	vi settings_MyRunWithChanges
       ```
-    	[Change 'nauto=2 to nauto=1'  (This changes the autoconversion scheme)]
+    * e.g., Change 'nauto=2 to nauto=1'  in line 167 (This changes the autoconversion scheme)
+      * TIP: press "/", type 'nauto', press 'enter' and press 'n' repeatedly to jump  
+      * type '167' and then 'gg' to jump
 
 	* Run
 
@@ -203,17 +240,18 @@
 
 ## Perform Data Analysis and Plotting
 
-#### On your Local Computer
+# On your Local Computer
 
 * Plot your results (platform dependent)
-	* Open a new terminal, and go to were you mounted the MISTRAL disk
-	* On Mac (panoply)
 
+  * On Mac (panoply)
+  
       ```     
       open MISTRAL/MyRunWithChanges/MyRunWithChanges_200701.01_echam.nc
       ```
 
 * Plot differences (e.g., differences in xl):
+
 	* On Mac (panoply): drag and drop variable into plot 
 
 ## EXERCISE 3: Source Code Changes in ECHAM on MISTRAL
@@ -221,7 +259,7 @@
   * Go to source directory
 
       ```
-      cd /pf/b/$USER/MyClimateModel/src
+      cd ~/MyClimateModel/src
       ```
       
     * Change a file: e.g., mo_cloud_micro_2m.f90 (line 2996)
@@ -229,12 +267,12 @@
       ```
       vi mo_cloud_micro_2m.f90
       ```
-      [change 'ccraut' to '100.0_dp*ccraut' (increase autoconversion efficiency by a hundredfold)]
+      [change 'ccraut' to '100.0_dp*ccraut' in line 2834 (increase autoconversion efficiency by a hundredfold)]
 
 * Go back, back up previous binary and compile
 
     ```
-    cd ..
+    cd ~/MyClimateModel
     mv bin/echam6 bin/echam6.original
     make -j 40    # compile files in src/
     make install  # prepare binary file (bin/echam6)
@@ -245,7 +283,7 @@
 	* Go to experiments
 
 		```
-		cd /pf/b/$USER/MyClimateModel/my_experiments
+		cd ~/MyClimateModel/my_experiments
 		```
 	* Prepare run
 
@@ -259,12 +297,6 @@
 		cd MyRunWithChangesInCode
 		patch settings_MyRunWithChangesInCode ../../../SCM_workshop/settings_patch_scm.generic.patch
     ```
-  * Change necessary parameters, e.g.  (see ../../include/physctl.inc)
-
-    ```
-      vi settings_MyRunWithChangesInCode
-    ```
-	[in vim change 'nauto=2 to nauto=1']
 
   * Run ECHAM
   
@@ -273,17 +305,18 @@
     ```
 
 ### Perform Data Analysis and Plotting
-#### On your Local Computer
+# On your Local Computer
 
 * Plot your results (platform dependent)
-	* Open a new terminal, and go to were you mounted the MISTRAL disk
+
 	* On Mac (panoply)
+  
     ```     
     open MISTRAL/MyRunWithChangesInCode/MyRunWithChangesInCode_200701.01_echam.nc    
     ```
 
 * Plot differences (e.g., differences in xl)
-	* On Mac (panoply): drag and drop variable into plot
 
+	* On Mac (panoply): drag and drop variable into plot
 
 
