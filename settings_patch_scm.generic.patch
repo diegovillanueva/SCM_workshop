@@ -38,7 +38,7 @@
  
     #-- ECHAM6-HAMMOZ namelists:
  
-+forcing="~/SCM_workshop/stdatm_form_diss.nc"
++forcing="/home/dkrz/$USER/SCM_workshop/stdatm_form_diss.nc"
         #-- ECHAM:
  
  cat > ${script_dir}/namelist_${exp}.echam << EOF
