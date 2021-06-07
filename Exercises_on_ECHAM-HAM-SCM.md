@@ -94,7 +94,7 @@
 * Copy ECHAM-HAM to your home directory: about 5 min
 
     ```
-        cp -av /work/bb1224/b380602/MyClimateModel ~/MyClimateModel
+        cp -av /work/bb1224/2021_MS-COURSE/model/MyClimateModel ~/MyClimateModel
     ```
     
 ### Download the Patch for Pratical Work with the Single Column Model
@@ -160,7 +160,7 @@
     * Create a directory for the output and run
     
       ```
-      mkdir /work/$ACCOUNT/$USER
+      mkdir /work/$ACCOUNT/userspace/$USER
       jobsubm_echam.sh settings_MyRun
       ```
 
@@ -173,12 +173,11 @@
 * Check the content of your results 
 
     ```
-    cd /work/$ACCOUNT/$USER/MyRun
+    cd /work/$ACCOUNT/userspace/$USER/MyRun
     cdo infon -vertmean -timmean -selname,xl,relhum MyRun_200701.01_echam.nc
     ```
 
-# On your Local Computer (open a new terminal)
-### Perform Data Analysis and Plotting
+### Perform Data Analysis and Plotting - On your Local Computer (open a new terminal)
 
 * Open Terminal
   * Mount mistral disk (platform dependent) 
@@ -199,7 +198,6 @@
       ```
 
 
-# On MISTRAL
 ## EXERCISE 2: Rerunning ECHAM on MISTRAL with Parameter Changes
 
 * Change a parameter in your simulation and rerun
@@ -238,8 +236,7 @@
 	    jobsubm_echam.sh settings_MyRunWithChanges
 	    ```
 
-# On your Local Computer
-## Perform Data Analysis and Plotting
+### Perform Data Analysis and Plotting on your Local Computer
 
 
 * Plot your results (platform dependent)
@@ -303,8 +300,8 @@
     jobsubm_echam.sh settings_MyRunWithChangesInCode
     ```
 
-# On your Local Computer
-### Perform Data Analysis and Plotting
+
+### Perform Data Analysis and Plotting  On your Local Computer
 
 * Plot your results (platform dependent)
 
