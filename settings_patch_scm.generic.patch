@@ -1,7 +1,7 @@
 --- settings_test_ori	2021-05-18 16:41:16.000000000 +0200
 +++ settings_test	2021-05-18 17:36:36.000000000 +0200
-@@ -46,10 +46,10 @@
- 
+@@ -46,11 +46,11 @@
+
  queue_name="compute"                    # partition name to use on current batch system (could be compute2)
  jobname="$exp"                          # batch job name
 -ncpus=XX                                # total number of cpus
@@ -9,11 +9,13 @@
 +ncpus=1                                # total number of cpus
 +walltime="01:00:00"                     # job estimated runtime
  nproma=16                               # vector length (don't modify if you don't know about it)
--account="XXXX"                          # project ID for accounting 
-+account="${ACCOUNT}"                          # project ID for accounting 
- exp_dir="/work/${account}/$USER/${exp}/" # where the run will be done 
- 
+-account="XXXX"                          # project ID for accounting
+-exp_dir="/work/${account}/$USER/${exp}/" # where the run will be done
++account="${ACCOUNT}"                          # project ID for accounting
++exp_dir="/work/${account}/userspace/$USER/${exp}/" # where the run will be done
+
  #-Body-begin. Do not delete this line!
+ #------------------------------------------------------------------------------------------------------
 @@ -63,7 +63,7 @@
  emissions_spec=${script_dir}/emi_spec_${exp}.txt  # name of your exp emi_spec file to copy to $exp_dir
  
