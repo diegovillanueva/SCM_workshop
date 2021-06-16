@@ -376,7 +376,16 @@
 
 ## EXERCISE 5: Make your own changes in ECHAM-HAM 
 
-* Repeat exercise 2 or 3, but pick your own variable, settings (~/MyClimateModel/include/physctl.inc), or change in the source code (~/MyClimateModel/src&mo_cloud_micro_2m.f90):
+* Repeat exercise 2 or 3, but 
+    * pick your own variable
+    * settings 
+    ```
+    vi ~/MyClimateModel/include/physctl.inc), 
+    ```
+    * or change in the source code:
+    ```
+    vi ~/MyClimateModel/src/mo_cloud_micro_2m.f90
+    ```
 
 * Can you think of a change that will impact a certain variable in the model?
 
