@@ -11,8 +11,8 @@
  nproma=16                               # vector length (don't modify if you don't know about it)
 -account="XXXX"                          # project ID for accounting 
 -exp_dir="/work/${account}/$USER/${exp}/" # where the run will be done 
-+account="${account}"                          # project ID for accounting 
-+exp_dir="/work/${account}/userspace/$USER/${exp}/" # where the run will be done 
++account="${ACCOUNT}"                          # project ID for accounting 
++exp_dir="/work/${ACCOUNT}/userspace/$USER/${exp}/" # where the run will be done 
  
  #-Body-begin. Do not delete this line!
  #------------------------------------------------------------------------------------------------------
