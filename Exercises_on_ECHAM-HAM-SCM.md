@@ -223,6 +223,11 @@
 
     * With panoply: Plot cloud water content (xl)
 
+<img src="./images/ECHAM/2dplot.png" alt="asd" width="400"/>
+
+<img src="./images/ECHAM/firstplot.png" alt="asd" width="400"/>
+
+
 ## EXERCISE 3: Rerunning ECHAM on MISTRAL with Parameter Changes
 
 * Change a parameter in your simulation and rerun
@@ -277,7 +282,11 @@
 
 * Plot differences in cloud water content (xl)
 
-    * On panoply: drag and drop variable from the new file into the old plot 
+    * On panoply: drag and drop variable from the new file into the old plot
+
+<img src="./images/ECHAM/centerscale.png" alt="asd" width="400"/>
+
+<img src="./images/ECHAM/secondplot.png" alt="asd" width="400"/>
 
 ## EXERCISE 4: Source Code Changes in ECHAM on MISTRAL
 
@@ -358,6 +367,12 @@
 * Plot differences in cloud water content (xl)
 
 	* On panoply: drag and drop variable into plot
+
+<img src="./images/ECHAM/replacevar.png" alt="asd" width="400"/>
+
+<img src="./images/ECHAM/thirdplot.png" alt="asd" width="400"/>
+
+
 
 ## EXERCISE 5: Make your own changes in ECHAM-HAM 
 
