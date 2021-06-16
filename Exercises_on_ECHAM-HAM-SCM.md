@@ -1,25 +1,18 @@
-# How to run ECHAM-HAM in the Single Column Model (SCM) Mode on MISTRAL
+# How Does Autoconversion Impact Rain Formation in the Climate-Aerosol Model ECHAM-HAM (single column model version)?
 
 ## Preparation 
 
-* Learn vim
-  * <https://www.openvim.com> 
-	* <https://vim-adventures.com>
-	* <http://www.vimgenius.com/lessons/vim-intro/levels/level-1>
-
-
 * Test (or prepare) your machine for remote connections with ssh and sshfs
-  * <https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh>
+
+* Learn vim, bash and panoply
+
+  * View instructions on <https://github.com/diegovillanueva/SCM_workshop/blob/main/SSH_SSHFS.md> 
 
 
-* Test (or install) panoply
-  * <https://www.giss.nasa.gov/tools/panoply/download/>
 
+## EXERCISE 1: First ECHAM compilation on Mistral
 
 * Mistral is the supercomputer at the German Climate Computer Center DKRZ. Check infos on: <https://www.dkrz.de/up/systems/mistral>
-
-
-## EXERCISE 1: First ECHAM Run on Mistral
 
 ### Login into Mistral
 
@@ -28,11 +21,13 @@
   * Your password ("MyPASSWORD")
 
 * Log into mistral using your user and password (platform dependent)
-  * On Mac
+  * In the terminal (Mac and Linux)
     
-      ```	
-      ssh MyUser@mistral.dkrz.de
-      ```
+    ```	
+    ssh MyUser@mistral.dkrz.de
+    ```
+  * With putty: 
+    * follow instructions on <https://www.ssh.com/academy/ssh/putty/windows> 
 
 #### Now on MISTRAL
 
@@ -47,43 +42,43 @@
 * Make a variable including your project number (bb1224 for T2 course in SS2021)
 
     ``` 
-      export ACCOUNT=bb1224
+    export ACCOUNT=bb1224
     ``` 
 
 * Load the required modules for ECHAM-HAM
-
-      ``` 
-        module use /pf/zmaw/m222045/m222045_modulefiles
-        module load jobscript_toolkit
-        module load autotools_for_echam/6.3.0
-        module load intel/16.0
-        module load mxm/3.4.3082
-        module load bullxmpi_mlx/bullxmpi_mlx-1.2.9.2
-      ```
+    ``` 
+    module use /pf/zmaw/m222045/m222045_modulefiles
+    module load jobscript_toolkit
+    module load autotools_for_echam/6.3.0
+    module load intel/16.0
+    module load mxm/3.4.3082
+    module load bullxmpi_mlx/bullxmpi_mlx-1.2.9.2
+    ```
 
 * And set the correct language
-      ```
-        export LC_ALL=C
-      ```
+    ```
+    export LC_ALL=C
+    ```
 
 * Add the lines in your ~/.bash_profile for your next session:
 
     ``` 
-      vi ~/.bash_profile
+    vi ~/.bash_profile
     ```
   * On vim add
  	
   
-      ``` 
-        export ACCOUNT=bb1224
-        module use /pf/zmaw/m222045/m222045_modulefiles
-        module load jobscript_toolkit
-        module load autotools_for_echam/6.3.0
-        module load intel/16.0
-        module load mxm/3.4.3082
-        module load bullxmpi_mlx/bullxmpi_mlx-1.2.9.2
-        export LC_ALL=C
-      ```
+    ``` 
+    export ACCOUNT=bb1224
+    module use /pf/zmaw/m222045/m222045_modulefiles
+    module load jobscript_toolkit
+    module load autotools_for_echam/6.3.0
+    module load intel/16.0
+    module load mxm/3.4.3082
+    module load bullxmpi_mlx/bullxmpi_mlx-1.2.9.2
+    export LC_ALL=C
+    ```
+
     * In short: inside vim: 
       * press 'i' for insertmode, then paste the lines 
       * press 'esc' for normal mode, 
@@ -91,210 +86,259 @@
 
 ### Download ECHAM
 
-* Copy ECHAM-HAM to your home directory: about 5 min
+* Copy ECHAM-HAM to your home directory: about 5 min ( go stretch ;) )
 
     ```
-        cp -av /work/bb1224/2021_MS-COURSE/model/MyClimateModel ~/MyClimateModel
+    cp -av /work/bb1224/2021_MS-COURSE/model/MyClimateModel ~/MyClimateModel
     ```
+
+    * if it fails due to permissions:
+    ```
+    cp -av /work/bb1224/userspace/b380602/MyClimateModel ~/MyClimateModel
+    ```
+
     
-### Download the Patch for Pratical Work with the Single Column Model
+### Download the Patch for Practical Work with the Single Column Model
 * Download patch, configuration and boundary conditions
 
     ``` 
-      git clone https://github.com/diegovillanueva/SCM_workshop.git
+    git clone https://github.com/diegovillanueva/SCM_workshop.git
     ```
 
 * What is on the files?
-  * 'SCM_workshop/scm-patch.patch'
-  * 'SCM_workshop/ioColumn.patch'
-    * Patches for the source code (MyClimateModel/src/)
-  * 'SCM_workshop/settings_patch_scm.generic.patch'
-    * A patch for the simulation settings (MyClimateModel/my_experiments/MyRun/)
-  * 'SCM_workshop/stdatm_form_diss.nc'
-    * A file with boundary conditions for the SCM model.
+	* 'SCM_workshop/scm-patch.patch'
+	* 'SCM_workshop/ioColumn.patch'
+		* Patches for the source code (MyClimateModel/src/)
+	* 'SCM_workshop/settings_patch_scm.generic.patch'
+		* A patch for the simulation settings (MyClimateModel/my_experiments/MyRun/)
+	* 'SCM_workshop/stdatm_form_diss.nc'
+		* A file with boundary conditions for the SCM model.
 
 * Patch the code for SCM
 	* Go to model directory
 	
-      ```	
-        cd ~/MyClimateModel
-      ```
+    ```	
+    cd ~/MyClimateModel
+    ```
 
   * Apply source code patch
 
-      ```
-      git apply --whitespace=nowarn ~/SCM_workshop/scm-patch.patch
-      patch src/mo_iocolumn.f90 ~/SCM_workshop/ioColumn.patch
-      ```
+    ```
+    git apply --whitespace=nowarn ~/SCM_workshop/scm-patch.patch
+    patch src/mo_iocolumn.f90 ~/SCM_workshop/ioColumn.patch
+    ```
     
 ### Compile the ECHAM Model for Fortran
 * Compile and configure the model: about 30 min (make a break and grep a coffee)
 	* Configure the model for this machine (only needed the first time)
 		
-      ```
-      ./configure --with-fortran=intel
-      ```
+    ```
+    ./configure --with-fortran=intel
+    ```
 
-	* Compile (repeat after code changes)
+    * Compile (repeat after code changes)
 	
-      ```
-      make -j 40    # compile files in src/
-      make install  # prepare binary file (bin/echam6)
-      ```
+    ```
+    make -j 40    # compile files in src/
+    make install  # prepare binary file (bin/echam6)
+    ```
 
-### Running the ECHAM Single Column Model
+    * check compilation
+    ```
+    ls -la bin/
+    ```
+
+## EXERCISE 2: Running the ECHAM Single Column Model
 * Make a run
 	* Prepare run
-	
-	    ``` 
-        cd my_experiments
-        prepare_run.sh MyRun
-	    ```
+    ``` 
+    cd ~/MyClimateModel/my_experiments
+    prepare_run.sh MyRun
+    ```
 	* Configure run for SCM
-	
-	    ```
-        cd MyRun
-        patch settings_MyRun ../../../SCM_workshop/settings_patch_scm.generic.patch
-	    ```
-     
+    ```
+    cd ~/MyClimateModel/my_experiments/MyRun/
+    patch settings_MyRun ../../../SCM_workshop/settings_patch_scm.generic.patch
+    ```
     * Create a directory for the output and run
-    
-      ```
-      mkdir /work/$ACCOUNT/userspace/$USER
-      jobsubm_echam.sh settings_MyRun
-      ```
+    ```
+    mkdir /work/$ACCOUNT/userspace/$USER
+    jobsubm_echam.sh settings_MyRun
+    ```
 
-* Check if is runing
-
-      ```
-      squeue -u $USER
-      ```
-
-* Check the content of your results 
+* Check if is running
 
     ```
+    squeue -u $USER
+    ```
+
+* Check the content of your results 
+    ```
     cd /work/$ACCOUNT/userspace/$USER/MyRun
+    ls -la
+    ```
+
+* Check the content of your results 
+    * xl: Cloud Liquid Content (kg/kg)
+    * relhum: Relative Humidity (%)
+    ```
     cdo infon -vertmean -timmean -selname,xl,relhum MyRun_200701.01_echam.nc
     ```
 
 ### Perform Data Analysis and Plotting - On your Local Computer (open a new terminal)
 
-* Open Terminal
-  * Mount mistral disk (platform dependent) 
-    * On Mac
+* Mount mistral disk (platform dependent) 
+  * In the terminal (Mac and Linux)
 
-      ```
-          MyUser=MyUser #replace right side with your user
-          MyPass=MyPass #replace right side with your pass
-          sshfs $MyUser@mistral.dkrz.de:/work/bb1224/$MyUser ./MISTRAL -ovolname=NAME -o password_stdin <<< "$MyPass"
-      ```
+    ```
+    MyUser=MyUser #replace right side with your user
+    MyPass=MyPass #replace right side with your pass
+    mkdir MISTRAL
+    sshfs $MyUser@mistral.dkrz.de:/work/bb1224/userspace/$MyUser ./MISTRAL -ovolname=NAME -o password_stdin <<< "$MyPass"
+    ```
+  * With FileZilla (or WinSCP):
+    * File -> Site Manager -> New site
+      * "General" Tab
+        * Protocol: SFTP
+        * Host: mistral.dkrz.de
+        * User: MyUser (replace)
+        * Password: MyPass (replace)
+      * "Advanced" Tab
+        *  Default remote directory: /work/bb1224/userspace/MyUser (replace)
+    * "Connect" -> yes
 
-* Plot your results (platform dependent)
+* Plot your results with panoply (platform dependent)
 
-  * On Mac (panoply)
-  
-      ```
-        open MISTRAL/MyRun/MyRun_200701.01_echam.nc
-      ```
+    * In the terminal (Mac and Linux)
 
+    ```
+    open MISTRAL/MyRun/MyRun_200701.01_echam.nc
+    ```
 
-## EXERCISE 2: Rerunning ECHAM on MISTRAL with Parameter Changes
+    * With FileZilla:
+        * Remote site: /mnt/lustre02/work/bb1224/userspace/MyUser/MyRun (replace)
+            * Double click on file to download
+        *  Local site:
+            * Right click -> open
+
+    * With panoply: Plot cloud water content (xl)
+
+## EXERCISE 3: Rerunning ECHAM on MISTRAL with Parameter Changes
 
 * Change a parameter in your simulation and rerun
 
-	* Go to your experiment folder
+    * Go to your experiment folder
 
-      ```
-    	cd ~/MyClimateModel/my_experiments
-      ```
+    ```
+    cd ~/MyClimateModel/my_experiments
+    ```
 
-	* Prepare run
+    * Prepare run
 
-      ```
-      prepare_run.sh MyRunWithChanges
-      ```
+    ```
+    prepare_run.sh MyRunWithChanges
+    ```
 
-	* Configure run for SCM
+    * Configure run for SCM
 
-    	```
-      cd MyRunWithChanges
-      patch settings_MyRunWithChanges ../../../SCM_workshop/settings_patch_scm.generic.patch
-   		```
+    ```
+    cd ~/MyClimateModel/my_experiments/MyRunWithChanges
+    patch settings_MyRunWithChanges ../../../SCM_workshop/settings_patch_scm.generic.patch
+    ```
 
-	* Change a parameter (see ../../include/physctl.inc)
+    * Change the autoconversion scheme 
 
-      ```
-    	vi settings_MyRunWithChanges
-      ```
-    * e.g., Change 'nauto=2 to nauto=1'  in line 167 (This changes the autoconversion scheme)
-      * TIP: press "/", type 'nauto', press 'enter' and press 'n' repeatedly to jump  
-      * type '167' and then 'gg' to jump
+    ```
+    vi settings_MyRunWithChanges
+    ```
+    * e.g., Change 'nauto=2' to 'nauto=1'  in line 167 
+        * TIP: press "/", type 'nauto' and press 'enter' ( press 'n' repeatedly to jump to the next word)
+        * or type '167' and then 'gg' to jump
+        * nauto options:
+            * 1:  Beheng (1994) - ECHAM5 Standard
+            * 2:  Khairoutdinov and Kogan (2000)
 
-	* Run
 
-	    ```
-	    jobsubm_echam.sh settings_MyRunWithChanges
-	    ```
+    * Run
+
+    ```
+    jobsubm_echam.sh settings_MyRunWithChanges
+    ```
 
 ### Perform Data Analysis and Plotting on your Local Computer
 
-
 * Plot your results (platform dependent)
 
-  * On Mac (panoply)
+  * In the terminal (Mac and Linux)
   
       ```     
       open MISTRAL/MyRunWithChanges/MyRunWithChanges_200701.01_echam.nc
       ```
 
-* Plot differences (e.g., differences in xl):
+* Plot differences in cloud water content (xl)
 
-	* On Mac (panoply): drag and drop variable into plot 
+    * On panoply: drag and drop variable from the new file into the old plot 
 
-## EXERCISE 3: Source Code Changes in ECHAM on MISTRAL
+## EXERCISE 4: Source Code Changes in ECHAM on MISTRAL
+
 * Change a the source code in the model and recompile
-  * Go to source directory
 
-      ```
-      cd ~/MyClimateModel/src
-      ```
+    * Go to source directory
+
+    ```
+    cd ~/MyClimateModel/src
+    ```
       
-    * Change a file: e.g., mo_cloud_micro_2m.f90 (line 2996)
+    * Change the cloud microphysics routine in mo_cloud_micro_2m.f90 (lines 2996 and 2932)
     
-      ```
-      vi mo_cloud_micro_2m.f90
-      ```
-      [change 'ccraut' to '100.0_dp*ccraut' in line 2834 (increase autoconversion efficiency by a hundredfold)]
+    ```
+    cp mo_cloud_micro_2m.f90 mo_cloud_micro_2m.f90.back #back up
+    vi mo_cloud_micro_2m.f90
+    ```
+    * increase autoconversion efficiency by a hundredfold
+        * change 'ccraut' to '100.0_dp*ccraut' in line 2932  (subroutine for nauto=2; default) 
+        * optional: also change 'ccraut' to '100.0_dp*ccraut' in line 2996  (subroutine for nauto=1) 
+        * CHECK line! (botton right in VIM editor)
 
-* Go back, back up previous binary and compile
+    * optional: check for errors
+    ```
+    ifort -DHAVE_YAXT -DINPUT_IN_ECHAM -DHAVE_CONFIG_INC -I/pf/b/b380602/REMO.P3.echam6.3-ham2.3-moz1.0/include -I./ -I/pf/b/b380602/REMO.P3.echam6.3-ham2.3-moz1.0/config -I/mnt/lustre01/pf/b/b380602/REMO.P3.echam6.3-ham2.3-moz1.0/cdi/src -I/sw/rhel6-x64/netcdf/netcdf_fortran-4.4.2-intel14/include -I/sw/rhel6-x64/netcdf/netcdf_c-4.3.2-gcc48/include -I/sw/rhel6-x64/sys/libaec-0.3.2-gcc48/include -I/sw/rhel6-x64/hdf5/hdf5-1.8.14-threadsafe-gcc48/include -I/sw/rhel6-x64/sys/libaec-0.3.2-gcc48/include -I/usr/include -I/mnt/lustre01/pf/b/b380602/REMO.P3.echam6.3-ham2.3-moz1.0/yaxt/inst_headers/f90 -I/opt/mpi/bullxmpi_mlx/1.2.8.3/lib -O3 -fp-model source -fast-transcendentals -no-prec-sqrt -no-prec-div -xHOST -diag-disable 15018 -DHAMMOZ -c -o mo_cloud_micro_2m.o -fpp -DWITH_LHET mo_cloud_micro_2m.f90
+    ```
+
+* Go back and back up previous binary 
 
     ```
     cd ~/MyClimateModel
     mv bin/echam6 bin/echam6.original
+    ```
+* and compile (~15 min), go grab a cup of coffee :)
+    ```
     make -j 40    # compile files in src/
     make install  # prepare binary file (bin/echam6)
+    echo
     ```
 
 * Rerun and plot differences
 
-	* Go to experiments
-
-		```
-		cd ~/MyClimateModel/my_experiments
-		```
-	* Prepare run
-
-		```
-		prepare_run.sh MyRunWithChangesInCode
-		```
-	* Configure run for SCM
+    * Go to experiments
 
     ```
-		cd MyRunWithChangesInCode
-		patch settings_MyRunWithChangesInCode ../../../SCM_workshop/settings_patch_scm.generic.patch
+    cd ~/MyClimateModel/my_experiments
     ```
 
-  * Run ECHAM
+    * Prepare run
+
+    ```
+    prepare_run.sh MyRunWithChangesInCode
+    ```
+    * Configure run for SCM
+
+    ```
+    cd ~/MyClimateModel/my_experiments/MyRunWithChangesInCode
+    patch settings_MyRunWithChangesInCode ../../../SCM_workshop/settings_patch_scm.generic.patch
+    ```
+
+  * Run ECHAM again
   
     ```
     jobsubm_echam.sh settings_MyRunWithChangesInCode
@@ -305,14 +349,46 @@
 
 * Plot your results (platform dependent)
 
-	* On Mac (panoply)
+    * In the terminal (Mac and Linux)
   
     ```     
     open MISTRAL/MyRunWithChangesInCode/MyRunWithChangesInCode_200701.01_echam.nc    
     ```
 
-* Plot differences (e.g., differences in xl)
+* Plot differences in cloud water content (xl)
 
-	* On Mac (panoply): drag and drop variable into plot
+	* On panoply: drag and drop variable into plot
 
+## EXERCISE 5: Make your own changes in ECHAM-HAM 
+
+* Repeat exercise 2 or 3, but pick your own variable, settings (~/MyClimateModel/include/physctl.inc), or change in the source code (~/MyClimateModel/src&mo_cloud_micro_2m.f90):
+
+* Can you think of a change that will impact a certain variable in the model?
+
+* Plot the differences!
+
+* Examples:
+    * Change the scheme for cdnc activation
+        * add 'ncd_activ = 1' in settings file (below '&PHYSCTL')
+            * 1: Lohmann et al. (1999) + Lin and Leaitch (1997)
+            * 2: DEFAULT: Lohmann et al. (1999) + Abdul-Razzak and Ghan (2000)
+
+    * Change the Sub-grid scale function of updraft velocities in activation scheme
+        * add 'nactivpdf=1' in settings file (below '&PHYSCTL')
+            * 0: DEFAULT: Mean updraft from TKE scheme without pdf
+            * 1: Coupling of updraft pdf with 20 bins to TKE scheme (West et al., 2013)
+
+* Interesting variables:
+    * aprl: large scale precipitation (kg/m**2s; 1D variable)
+    * q: specific humidity (kg/kg)
+
+## EXERCISE 6: Finish up plots and interpret your results!
+
+* Visualize and summarize the most important changes you found.
+
+* Try to explain this changes. 
+
+* Make a short report: Max 1 page and 2 plots.
+
+* Present your results (~2 min)
 
