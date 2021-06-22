@@ -1,5 +1,7 @@
 # How Does Autoconversion Impact Rain Formation in the Climate-Aerosol Model ECHAM-HAM (single column model version)?
 
+* For a version with pictures go to <https://github.com/diegovillanueva/SCM_workshop/blob/main/Exercises_on_ECHAM-HAM-SCM.md>
+
 ## Preparation 
 
 * Test (or prepare) your machine for remote connections with ssh and sshfs
@@ -376,11 +378,19 @@
 
 ## EXERCISE 5: Make your own changes in ECHAM-HAM 
 
-* Repeat exercise 2 or 3, but 
+* restore the original model compilation
+    ```
+    mv ~/MyClimateModel/bin/echam6 ~/MyClimateModel/bin/echam6.100 #rename new model
+    mv ~/MyClimateModel/bin/echam6.original ~/MyClimateModel/bin/echam6 #restore the original model as default
+    ```
+
+* Repeat exercise 3 or 4, but 
     * pick your own variable
     * settings 
     ```
-    vi ~/MyClimateModel/include/physctl.inc), 
+    vi ~/MyClimateModel/include/physctl.inc
+    vi ~/MyClimateModel/src/setphys.f90 #description of the parameters
+    vi ~/MyClimateModel/src/mo_param_switches.f90 #default values of the parameters
     ```
     * or change in the source code:
     ```
@@ -406,11 +416,30 @@
     * aprl: large scale precipitation (kg/m**2s; 1D variable)
     * q: specific humidity (kg/kg)
 
+* If you would like to change the input files:
+    * back up the input files
+    ```
+    cp ~/SCM_workshop/stdatm_form_diss.nc ~/SCM_workshop/stdatm_form_diss.original.nc
+    ```
+    * convert from netcdf to CDL (editable)
+    ```
+    ncdump ~/SCM_workshop/stdatm_form_diss.original.nc > ~/SCM_workshop/stdatm_form_diss.original.cdl
+    cp ~/SCM_workshop/stdatm_form_diss.original.cdl ~/SCM_workshop/stdatm_form_diss.new.cdl
+    ```
+    * edit the file
+    ```
+    vi ~/SCM_workshop/stdatm_form_diss.new.cdl
+    ```
+    * and convert it back to netcdf
+    ```
+    ncgen ~/SCM_workshop/stdatm_form_diss.new.cdl -o ~/SCM_workshop/stdatm_form_diss.nc
+    ```
+
 ## EXERCISE 6: Finish up plots and interpret your results!
 
 * Visualize and summarize the most important changes you found.
 
-* Try to explain this changes. 
+* Try to explain these changes. 
 
 * Make a short report: Max 1 page and 2 plots.
 
